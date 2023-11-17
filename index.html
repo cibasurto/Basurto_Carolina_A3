@@ -8,6 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,600;0,700;1,500&family=Teko:wght@500&display=swap"
           rel="stylesheet">
     <style>
+/* background image and font*/
+      body {
+        background-image: url("web_bkg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: 100%;
+        color: #F2F2F2;
+        font-family: "Rubik", sans-serif;
+      }
 /* nav bar */
       ul {
         list-style-type: none;
@@ -47,16 +57,6 @@
         font-weight: 500;
         margin-top: 0px;
         padding-left: 4px;
-      }
-/* background image and font*/
-      body {
-        background-image: url("web_bkg.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: 100%;
-        color: #F2F2F2;
-        font-family: "Rubik";
       }
 /* portfolio sections */
       .personal {
@@ -132,7 +132,7 @@
         font-size: 25px;
         font-weight: 500;
         background-color: rgba(199, 174, 224, 55%);
-        margin: -61px -8px 0px -8px;
+        margin: -60px -8px 0px -8px;
         padding-left: 95px;
       }
       .abouttext2 {
@@ -237,6 +237,7 @@
       .minji {
         width: 655px;
         padding-left: 90px;
+        padding-top: 5px;
       }
       .soul2 {
         width: 655px;
@@ -262,15 +263,15 @@
   </head>
   <body>
 <!--home page-->
-    <div id="#section0">
-      <div class="navbar">
-        <ul>
-          <li><a href="#section0">home</a></li>
-          <li><a href="#section1">about</a></li>
-          <li><a href="#section2">personal projects</a></li>
-          <li><a href="#section3">course assignments</a></li>
-        </ul>
-      </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#personal_projects">personal projects</a></li>
+        <li><a href="#course_assignments">course assignments</a></li>
+      </ul>
+    </div>
+    <div id="home">
       <h1 class="nameintro">
         hi, i'm caro
         <div>
@@ -289,7 +290,7 @@
       </div>
     </div>
 <!-- about page -->   
-    <div id="#section1">
+    <div id="about">
       <h1 class="abouttitle">
         about
         <div>
@@ -312,7 +313,7 @@
     </div>
     </div>
 <!-- personal projects page -->
-  <div id="#section2">
+  <div id="personal_projects">
     <h1 class="persproj">personal projects</h1>
     <div class="blurb1"><p>often inspired by a favourite musical artist or by a cool style seen online, I create these<div>
       small personal projects leisurely to improve my skill and enhance the scope of my work.
@@ -348,9 +349,8 @@
     <td><img class="rm" src="namjoon.jpg" alt="RM of BTS Graphic Design"></td>
     <td><img class="liz" src="liz.jpg" alt="LIZ of IVE Graphic Design"></td>
   </tr>
-
   </div>
-    <div id="#section3">
+    <div id="course_assignments">
       Your amazing content goes here!
     </div>
   </body>
